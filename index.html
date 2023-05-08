@@ -172,14 +172,14 @@
 <body>
     <div id="app">
         <div id="settings">
-            <label for="userID"><a href="https://www.elevenvr.net/search" target="_blank">User ID</a></label>
+            <label for="userID"><a href="https://www.elevenvr.net/search" target="_blank" style="text-decoration:none">用户ID</a></label>
             <input name="userID" id="userID" type="text" v-model="userID" />
 
-            <label for="rowsReversed">Flip players</label>
+            <label for="rowsReversed">反转选手</label>
             <input name="rowsReversed" id="rowsReversed" type="checkbox" v-model="rowsReversed" />
 
             <select id="bestOf" v-model="bestOf">
-                <option value="" selected>--hide bestof--</option>
+                <option value="" selected>--隐藏BO信息--</option>
                 <option value="bo3">BO3</option>
                 <option value="bo5">BO5</option>
                 <option value="bo7">BO7</option>
